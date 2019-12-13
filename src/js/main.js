@@ -31,6 +31,29 @@
     }
 
     window.addEventListener('load', (e) => {
+        
+        const frameworks = [
+            {
+                title: 'Magento 2',
+                progress: 90
+            }, {
+                title: 'NestJS',
+                progress: 85
+            }, {
+                title: 'Laravel',
+                progress: 78
+            }, {
+                title: 'Yii2',
+                progress: 78
+            }, {
+                title: 'Angular 2+',
+                progress: 70
+            }, {
+                title: 'Magento 1',
+                progress: 60
+            }
+        ];
+
         const programmingSkills = [
             {
                 title: 'PHP',
@@ -56,30 +79,7 @@
             }
         ];  
 
-        new SkillsWidget('#programming_skills', programmingSkills);
-
-        const frameworks = [
-            {
-                title: 'Magento 2',
-                progress: 90
-            }, {
-                title: 'NestJS',
-                progress: 85
-            }, {
-                title: 'Laravel',
-                progress: 78
-            }, {
-                title: 'Yii2',
-                progress: 78
-            }, {
-                title: 'Angular 2+',
-                progress: 70
-            }, {
-                title: 'Magento 1',
-                progress: 60
-            }
-        ];
-
         new SkillsWidget('#frameworks', frameworks);
+        new SkillsWidget('#programming_skills', programmingSkills);
     });
 })();
