@@ -1,0 +1,200 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+main.content {
+    margin: 0 25px;
+}
+
+div.main-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.column+.column{
+    margin-left: 40px;
+}
+
+.main-columns .column {
+    flex: 1;
+    flex-grow: 5;
+}
+
+.main-columns .column:first-child {
+    flex-grow: 5;
+}
+
+h1.heading, .heading-additional {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+img.photo {
+    width:  150px;
+    height: 150px;
+    border-radius: 49%;
+    border: 1px solid black;
+}
+
+.section-heading {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 25px 0 15px 0;
+    font-size: 1.6em;
+}
+
+.paragraph-heading {
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+h4+.paragraph {
+    letter-spacing: 1.2px;
+}
+.paragraph {
+    text-align: justify;
+}
+
+.paragraph .description {
+    display: block;
+}
+
+.paragraph .title .primary {
+    text-transform: uppercase;
+}
+
+.paragraph .title .primary,
+.paragraph .description .primary {
+    display: block;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+}
+.paragraph .title .secondary,
+.paragraph .description .secondary {
+    display: block;
+    font-size: 0.8em;
+    color: gray;
+    letter-spacing: 1.4px;
+}
+
+.paragraph .title .secondary {
+    font-size: 0.9em;
+}
+
+.paragraph .title,
+.paragraph .description {
+    margin: 10px 0;
+}
+
+.title+.description,
+.description+.title {
+    margin: 5px 0;
+}
+
+.paragraph+.paragraph {
+    margin-top: 10px
+}
+
+.paragraph.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3px 0;
+}
+
+.paragraph.skills .row {
+    align-items: normal;
+    flex-direction: row-reverse;
+}
+
+.paragraph.skills .row .skill-title {
+    position: relative;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+.paragraph.skills .row .skill-progress {
+    background-color: green;
+}
+
+.paragraph.skills .row .skill-progress span {
+    display: none;
+}
+
+ul.cards {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards li {
+    padding: 5px 10px;
+    background-color: hsla(56, 80%, 50%, 0.54);
+    border-radius: 3px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.paragraph.contacts .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px; 
+}
+
+.paragraph.contacts .description {
+    flex-grow: 1;
+}
+
+.paragraph.contacts .description .contact-data {
+    display: block;
+}
+
+.paragraph.contacts .description .contact-method {
+    display: block;
+}
+
+
+@media screen and (min-width: 1366px) {
+    main.content {
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .paragraph.skills .skill-title {
+        display: none;
+    }
+
+    .paragraph.skills .row {
+        flex-direction: row;
+    }
+
+    .paragraph.skills .row .skill-progress span {
+        display: inline-block;
+        padding: 0 10px;
+        font-weight: 600;
+    }
+}
