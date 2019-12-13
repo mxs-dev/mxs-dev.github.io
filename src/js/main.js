@@ -36,19 +36,22 @@
                 title: 'PHP',
                 progress: 90
             }, {
+                title: 'Type Script',
+                progress: 90
+            }, {
                 title: 'Java Script',
                 progress: 90
             },  {
                 title: 'SQL',
-                progress: 90
+                progress: 85
             },  {
                 title: 'NOSQL',
                 progress: 75
             }, {
                 title: 'Shell scripting',
-                progress: 50
+                progress: 60
             }, {
-                title: 'HTML, CSS',
+                title: 'C/C++',
                 progress: 50
             }
         ];  
@@ -58,22 +61,22 @@
         const frameworks = [
             {
                 title: 'Magento 2',
-                progress: 85
-            }, {
-                title: 'Magento 1',
-                progress: 75
-            }, {
-                title: 'Yii2',
-                progress: 75
+                progress: 90
             }, {
                 title: 'NestJS',
-                progress: 70
+                progress: 85
+            }, {
+                title: 'Laravel',
+                progress: 78
+            }, {
+                title: 'Yii2',
+                progress: 78
             }, {
                 title: 'Angular 2+',
-                progress: 65
-            }, {
-                title: 'Bootstrap 4(3)',
                 progress: 70
+            }, {
+                title: 'Magento 1',
+                progress: 60
             }
         ];
 
