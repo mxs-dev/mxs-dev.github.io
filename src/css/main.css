@@ -146,6 +146,7 @@ ul.cards {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .cards li {
