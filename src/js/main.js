@@ -37,20 +37,20 @@
                 title: 'Magento 2',
                 progress: 90
             }, {
-                title: 'NestJS',
+                title: 'NestJS 6',
                 progress: 85
             }, {
-                title: 'Laravel',
-                progress: 78
+                title: 'Laravel 5/6',
+                progress: 83
             }, {
                 title: 'Yii2',
-                progress: 78
+                progress: 75
             }, {
                 title: 'Angular 2+',
                 progress: 70
             }, {
                 title: 'Magento 1',
-                progress: 60
+                progress: 65
             }
         ];
 
