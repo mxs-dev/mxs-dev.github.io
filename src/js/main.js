@@ -34,48 +34,48 @@
         
         const frameworks = [
             {
-                title: 'Magento 2',
+                title: 'Angular 2+',
                 progress: 90
             }, {
                 title: 'NestJS 6',
                 progress: 85
             }, {
+                title: 'Magento 2',
+                progress: 85
+            },  {
                 title: 'Laravel 5/6',
-                progress: 83
+                progress: 80
             }, {
                 title: 'Yii2',
-                progress: 75
-            }, {
-                title: 'Angular 2+',
-                progress: 70
+                progress: 77
             }, {
                 title: 'Magento 1',
-                progress: 65
+                progress: 50
             }
         ];
 
         const programmingSkills = [
             {
-                title: 'PHP',
-                progress: 90
-            }, {
                 title: 'Type Script',
-                progress: 90
+                progress: 95
             }, {
                 title: 'Java Script',
-                progress: 90
-            },  {
+                progress: 95
+            }, {
+                title: 'PHP',
+                progress: 94
+            }, {
                 title: 'SQL',
                 progress: 85
             },  {
                 title: 'NOSQL',
                 progress: 75
             }, {
-                title: 'Shell scripting',
+                title: 'Bash / Shell scripting',
                 progress: 60
             }, {
                 title: 'C/C++',
-                progress: 50
+                progress: 40
             }
         ];  
 
