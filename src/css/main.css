@@ -44,9 +44,9 @@ h1.heading, .heading-additional {
 }
 
 img.photo {
-    width:  150px;
-    height: 150px;
-    border-radius: 49%;
+    width:  160px;
+    height: 160px;
+    border-radius: 50%;
     border: 1px solid black;
 }
 

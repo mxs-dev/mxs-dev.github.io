@@ -63,16 +63,16 @@
                 progress: 95
             }, {
                 title: 'PHP',
-                progress: 94
+                progress: 95
             }, {
                 title: 'SQL',
                 progress: 85
             },  {
                 title: 'NOSQL',
-                progress: 75
+                progress: 82
             }, {
                 title: 'Bash / Shell scripting',
-                progress: 60
+                progress: 55
             }, {
                 title: 'C/C++',
                 progress: 40
