@@ -98,7 +98,7 @@ h4+.paragraph {
 
 .paragraph .title,
 .paragraph .description {
-    margin: 10px 0;
+    margin: 14px 0 2px;
 }
 
 .title+.description,

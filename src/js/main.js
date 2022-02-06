@@ -34,25 +34,43 @@
         
         const frameworks = [
             {
-                title: 'Angular 2+',
-                progress: 90
+                title: 'Angular',
+                progress: 95
             }, {
-                title: 'NestJS 6',
-                progress: 85
+                title: 'NestJS',
+                progress: 95
             }, {
                 title: 'Magento 2',
                 progress: 85
             },  {
-                title: 'Laravel 5/6',
-                progress: 80
+                title: 'Laravel',
+                progress: 84
             }, {
                 title: 'Yii2',
-                progress: 77
+                progress: 75
             }, {
                 title: 'Magento 1',
                 progress: 50
+            }, {
+                title: 'Flutter',
+                progress: 40,
             }
         ];
+
+        const databaseSkills = [
+            {
+                title: 'MySQL',
+                progress: 95,
+            },
+            {
+                title: 'MongoDB',
+                progress: 93,
+            },
+            {
+                title: 'Neo4j',
+                progress: 45,
+            }
+        ]
 
         const programmingSkills = [
             {
@@ -65,11 +83,8 @@
                 title: 'PHP',
                 progress: 95
             }, {
-                title: 'SQL',
-                progress: 85
-            },  {
-                title: 'NOSQL',
-                progress: 82
+                title: 'Dart',
+                progress: 65,
             }, {
                 title: 'Bash / Shell scripting',
                 progress: 55
@@ -80,6 +95,7 @@
         ];  
 
         new SkillsWidget('#frameworks', frameworks);
+        new SkillsWidget('#databases', databaseSkills)
         new SkillsWidget('#programming_skills', programmingSkills);
     });
 })();
