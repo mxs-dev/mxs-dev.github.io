@@ -42,18 +42,21 @@
             }, {
                 title: 'Magento 2',
                 progress: 85
-            },  {
+            }, {
                 title: 'Laravel',
                 progress: 84
             }, {
                 title: 'Yii2',
                 progress: 75
             }, {
+                title: 'Telegraph',
+                progress: 72,
+            }, {
                 title: 'Magento 1',
                 progress: 50
             }, {
                 title: 'Flutter',
-                progress: 40,
+                progress: 35,
             }
         ];
 
@@ -68,7 +71,7 @@
             },
             {
                 title: 'Neo4j',
-                progress: 45,
+                progress: 35,
             }
         ]
 
@@ -83,11 +86,11 @@
                 title: 'PHP',
                 progress: 95
             }, {
-                title: 'Dart',
-                progress: 65,
-            }, {
                 title: 'Bash / Shell scripting',
-                progress: 55
+                progress: 70,
+            }, {
+                title: 'Dart',
+                progress: 50,
             }, {
                 title: 'C/C++',
                 progress: 40
