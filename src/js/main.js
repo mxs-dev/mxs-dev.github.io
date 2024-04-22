@@ -51,12 +51,6 @@
             }, {
                 title: 'Telegraph',
                 progress: 72,
-            }, {
-                title: 'Magento 1',
-                progress: 50
-            }, {
-                title: 'Flutter',
-                progress: 35,
             }
         ];
 
@@ -66,12 +60,20 @@
                 progress: 95,
             },
             {
+                title: 'PostgreSQL',
+                progress: 95,
+            },
+            {
                 title: 'MongoDB',
                 progress: 93,
             },
             {
+                title: 'Firestore',
+                progress: 90,
+            },
+            {
                 title: 'Neo4j',
-                progress: 35,
+                progress: 50,
             }
         ]
 
@@ -80,21 +82,18 @@
                 title: 'Type Script',
                 progress: 95
             }, {
-                title: 'Java Script',
-                progress: 95
-            }, {
                 title: 'PHP',
-                progress: 95
+                progress: 90
             }, {
-                title: 'Bash / Shell scripting',
-                progress: 70,
-            }, {
-                title: 'Dart',
-                progress: 50,
+                title: 'Bash / Shell',
+                progress: 80,
+            },  {
+                title: 'Python',
+                progress: 55,
             }, {
                 title: 'C/C++',
-                progress: 40
-            }
+                progress: 45,
+            },
         ];  
 
         new SkillsWidget('#frameworks', frameworks);
